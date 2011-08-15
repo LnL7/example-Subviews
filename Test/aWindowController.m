@@ -16,10 +16,6 @@
 	if (( self = [super initWithWindow:window] ))
 	{
 		// Initialization code here.
-		_aView = [[aView alloc] initWithNibName:@"aView" bundle:nil];
-		_bView = [[bView alloc] initWithNibName:@"bView" bundle:nil];
-		[[_aView view] setFrame:[_content bounds]];
-		[[_bView view] setFrame:[_content bounds]];
 	}
 	
 	return self;
@@ -35,6 +31,10 @@
 	[super windowDidLoad];
 	
 	// Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+	_aView = [[aView alloc] initWithNibName:@"aView" bundle:nil];
+	_bView = [[bView alloc] initWithNibName:@"bView" bundle:nil];
+	[[_aView view] setFrame:[_content bounds]];
+	[[_bView view] setFrame:[_content bounds]];
 }
 
 - (IBAction)aButton:(id)sender
