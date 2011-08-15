@@ -7,12 +7,25 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "aWindowController.h"
+#import "aView.h"
+#import "bView.h"
 
 @interface TestAppDelegate : NSObject <NSApplicationDelegate> {
 @private
-	NSWindow *window;
+	IBOutlet NSWindow *_window;
+	IBOutlet NSView *_content;
+	aWindowController *_aWinCtl;
+	aView *_aView;
+	bView *_bView;
 }
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) NSWindow *window;
+@property (assign) NSView *content;
+@property (assign) aView *aView;
+@property (assign) bView *bView;
+
+- (IBAction)aButton:(id)sender;
+- (IBAction)bButton:(id)sender;
 
 @end

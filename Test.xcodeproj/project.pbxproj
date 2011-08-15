@@ -7,28 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8626507013F993A10093BE74 /* aWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626506F13F993A10093BE74 /* aWindowController.m */; };
+		8626507313F993F80093BE74 /* aWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8626507213F993F80093BE74 /* aWindow.xib */; };
 		86BCBD2113F92B36002D1A1C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BCBD2013F92B36002D1A1C /* Cocoa.framework */; };
 		86BCBD2B13F92B36002D1A1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86BCBD2913F92B36002D1A1C /* InfoPlist.strings */; };
 		86BCBD2E13F92B36002D1A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BCBD2D13F92B36002D1A1C /* main.m */; };
 		86BCBD3113F92B36002D1A1C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 86BCBD2F13F92B36002D1A1C /* Credits.rtf */; };
 		86BCBD3413F92B36002D1A1C /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BCBD3313F92B36002D1A1C /* TestAppDelegate.m */; };
 		86BCBD3713F92B36002D1A1C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86BCBD3513F92B36002D1A1C /* MainMenu.xib */; };
+		86BCBD3E13F92B51002D1A1C /* aView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86BCBD3D13F92B51002D1A1C /* aView.xib */; };
+		86BCBD4013F92B57002D1A1C /* bView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86BCBD3F13F92B57002D1A1C /* bView.xib */; };
+		86BCBD4313F92BEF002D1A1C /* aView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BCBD4213F92BEE002D1A1C /* aView.m */; };
+		86BCBD4613F92BFC002D1A1C /* bView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BCBD4513F92BFC002D1A1C /* bView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8626506E13F993A10093BE74 /* aWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aWindowController.h; sourceTree = "<group>"; };
+		8626506F13F993A10093BE74 /* aWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aWindowController.m; sourceTree = "<group>"; };
+		8626507213F993F80093BE74 /* aWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aWindow.xib; sourceTree = "<group>"; };
 		86BCBD1C13F92B36002D1A1C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BCBD2013F92B36002D1A1C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		86BCBD2313F92B36002D1A1C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		86BCBD2413F92B36002D1A1C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		86BCBD2513F92B36002D1A1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		86BCBD2813F92B36002D1A1C /* Test-Info.plist */ = {isa = PBXFileReference; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		86BCBD2813F92B36002D1A1C /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		86BCBD2A13F92B36002D1A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		86BCBD2C13F92B36002D1A1C /* Test-Prefix.pch */ = {isa = PBXFileReference; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
+		86BCBD2C13F92B36002D1A1C /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 		86BCBD2D13F92B36002D1A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86BCBD3013F92B36002D1A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		86BCBD3213F92B36002D1A1C /* TestAppDelegate.h */ = {isa = PBXFileReference; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		86BCBD3213F92B36002D1A1C /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
 		86BCBD3313F92B36002D1A1C /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
 		86BCBD3613F92B36002D1A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		86BCBD3D13F92B51002D1A1C /* aView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aView.xib; sourceTree = "<group>"; };
+		86BCBD3F13F92B57002D1A1C /* bView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bView.xib; sourceTree = "<group>"; };
+		86BCBD4113F92BEE002D1A1C /* aView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aView.h; sourceTree = "<group>"; };
+		86BCBD4213F92BEE002D1A1C /* aView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aView.m; sourceTree = "<group>"; };
+		86BCBD4413F92BFC002D1A1C /* bView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bView.h; sourceTree = "<group>"; };
+		86BCBD4513F92BFC002D1A1C /* bView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +99,16 @@
 			children = (
 				86BCBD3213F92B36002D1A1C /* TestAppDelegate.h */,
 				86BCBD3313F92B36002D1A1C /* TestAppDelegate.m */,
+				8626506E13F993A10093BE74 /* aWindowController.h */,
+				8626506F13F993A10093BE74 /* aWindowController.m */,
+				86BCBD4113F92BEE002D1A1C /* aView.h */,
+				86BCBD4213F92BEE002D1A1C /* aView.m */,
+				86BCBD4413F92BFC002D1A1C /* bView.h */,
+				86BCBD4513F92BFC002D1A1C /* bView.m */,
 				86BCBD3513F92B36002D1A1C /* MainMenu.xib */,
+				8626507213F993F80093BE74 /* aWindow.xib */,
+				86BCBD3D13F92B51002D1A1C /* aView.xib */,
+				86BCBD3F13F92B57002D1A1C /* bView.xib */,
 				86BCBD2713F92B36002D1A1C /* Supporting Files */,
 			);
 			path = Test;
@@ -155,6 +179,9 @@
 				86BCBD2B13F92B36002D1A1C /* InfoPlist.strings in Resources */,
 				86BCBD3113F92B36002D1A1C /* Credits.rtf in Resources */,
 				86BCBD3713F92B36002D1A1C /* MainMenu.xib in Resources */,
+				86BCBD3E13F92B51002D1A1C /* aView.xib in Resources */,
+				86BCBD4013F92B57002D1A1C /* bView.xib in Resources */,
+				8626507313F993F80093BE74 /* aWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +194,9 @@
 			files = (
 				86BCBD2E13F92B36002D1A1C /* main.m in Sources */,
 				86BCBD3413F92B36002D1A1C /* TestAppDelegate.m in Sources */,
+				86BCBD4313F92BEF002D1A1C /* aView.m in Sources */,
+				86BCBD4613F92BFC002D1A1C /* bView.m in Sources */,
+				8626507013F993A10093BE74 /* aWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +311,7 @@
 				86BCBD3C13F92B36002D1A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
